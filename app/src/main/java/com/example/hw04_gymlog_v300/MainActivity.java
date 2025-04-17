@@ -27,9 +27,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     private static final String MAIN_ACTIVITY_USER_ID = "com.example.hw04_gymlog_v300.MAIN_ACTIVITY_USER_ID";
     private ActivityMainBinding binding;
-
     private GymLogRepository repository;
-
     public static final String TAG = "SEC_GYMLOG";
     String mExercise = "";
     double mWeight = 0.0;
